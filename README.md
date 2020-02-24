@@ -1,5 +1,4 @@
-Louisiana State University
-Baton Rouge, LA, 70803
+Louisiana State University, Baton Rouge, LA 70803
 
 February 23, 2020
 
