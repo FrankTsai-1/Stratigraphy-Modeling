@@ -13,7 +13,7 @@ File Descriptions
 -------------------
 Source code files:
 	Lithology.F90  : main program that read input files, run the natural neighbor interpolation method, and produce output files.
-	nn_int.f       : subroutines for the natural neighbor interpolation method
+	nn_int.f       : natural neighbor interpolation method
 
 Input data files
 	GridTopo.csv   : input file, center of cell locations (x,y) in meters and its land surface (feet). 
