@@ -36,24 +36,14 @@ Place all input files and source code files in the same folder before compilatio
 Test Data and Results
 --------------------------
 
-A pair of example datasets, corresponding to two tiles in Louisiana, are provided for testing the code, along with the expected outputs.  Test data is provided in ./TestData, and the corresponding results in ./TestResults. Example 1 is for tile number 23 in north Louisiana. Example 2 is for tile 123 in southeast Louisiana.
+An example dataset, corresponding to one tile in Louisiana, is provided for testing the code, along with the expected outputs.  Test data is provided in ./TestData, and the corresponding results in ./TestResults. The example is for a tile in north Louisiana.
 
-../TestData/Input_example1
-				--GridTopo.csv
-				--WellLogs.csv
-				--Geo_model.inp
-				
-../TestData/Input_example2
+../TestData/Input_example
 				--GridTopo.csv
 				--WellLogs.csv
 				--Geo_model.inp
 				
 ../TestData/Output_example1
-				--geomodel.prn
-				--Geo-model.dat
-				--Geo-model_no_thin.dat
-
-../TestData/Output_example2
 				--geomodel.prn
 				--Geo-model.dat
 				--Geo-model_no_thin.dat
