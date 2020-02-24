@@ -1,10 +1,10 @@
 &geo
-NCELL= 361
-NWellLog = 484
+NCELL= 380
+NWellLog = 6847
 MaxLithoBed= 69
-dipDirection= 42
-dipAngleS= 0.00128
-dipAngleE= 0.00128
+dipDirection= 265.21
+dipAngleS= 0.001
+dipAngleE= 0.001
 ElevP1= 300.0
 ElevP2= -200.0
 StartElev= 300.0
