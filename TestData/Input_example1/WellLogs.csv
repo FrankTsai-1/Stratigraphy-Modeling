@@ -1,4 +1,4 @@
-Name,UTMx (m),UTMy(m),datum,Start,Sand1,Clay1,Sand2,Clay2,Sand3,Clay3,Sand4,Clay4,Sand5,Clay5,Sand6,Clay6,Sand7,Clay7,Sand8,Clay8,Sand9,Clay9,Sand10,Clay10,Sand11,Clay11,Sand12,Clay12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Name,x(meters),y(meters),datum(feet),Start(feet),Sand1(feet),Clay1(feet),Sand2,Clay2,Sand3,Clay3,Sand4,Clay4,Sand5,Clay5,Sand6,Clay6,Sand7,Clay7,Sand8,Clay8,Sand9,Clay9,Sand10,Clay10,Sand11,Clay11,Sand12,Clay12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Well-1,525238.678,3634782.735,200,0,294,315,350,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Well-2,511112.957,3622100.622,220,0,20,40,154,186,206,240,270,300,310,350,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Well-3,514806.721,3623367.97,348,0,90,95,350,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1370,7 +1370,7 @@
  Layers (NLay)=         1008 ; Topo cells (NCELL)=          361
  Memory for 4 arrays of entire grid is   1.018886400000000E-002  GBytes
  
-   406.754679126506                0           1 out of         1008
+       406.8           0           1 out of         1008
      406.8 ft(z), less than    1  well logs for interporation the plane.
  
      405.8 ft(z), less than    1  well logs for interporation the plane.
@@ -1391,7 +1391,6 @@
  
      397.8 ft(z), less than    1  well logs for interporation the plane.
  
-   396.754679126506                0          11 out of         1008
      396.8 ft(z), less than    1  well logs for interporation the plane.
  
      395.8 ft(z), less than    1  well logs for interporation the plane.
@@ -1412,7 +1411,6 @@
  
      387.8 ft(z), less than    1  well logs for interporation the plane.
  
-   386.754679126506                0          21 out of         1008
      386.8 ft(z), less than    1  well logs for interporation the plane.
  
      385.8 ft(z), less than    1  well logs for interporation the plane.
@@ -1433,7 +1431,6 @@
  
      377.8 ft(z), less than    1  well logs for interporation the plane.
  
-   376.754679126506                0          31 out of         1008
      376.8 ft(z), less than    1  well logs for interporation the plane.
  
      375.8 ft(z), less than    1  well logs for interporation the plane.
@@ -1454,7 +1451,6 @@
  
      367.8 ft(z), less than    1  well logs for interporation the plane.
  
-   366.754679126506                0          41 out of         1008
      366.8 ft(z), less than    1  well logs for interporation the plane.
  
      365.8 ft(z), less than    1  well logs for interporation the plane.
@@ -1475,7 +1471,6 @@
  
      357.8 ft(z), less than    1  well logs for interporation the plane.
  
-   356.754679126506                0          51 out of         1008
      356.8 ft(z), less than    1  well logs for interporation the plane.
  
      355.8 ft(z), less than    1  well logs for interporation the plane.
@@ -1496,7 +1491,6 @@
  
      347.8 ft(z), less than    1  well logs for interporation the plane.
  
-   346.754679126506                0          61 out of         1008
      346.8 ft(z), less than    1  well logs for interporation the plane.
  
      345.8 ft(z), less than    1  well logs for interporation the plane.
@@ -1517,7 +1511,6 @@
  
      337.8 ft(z), less than    1  well logs for interporation the plane.
  
-   336.754679126506                0          71 out of         1008
      336.8 ft(z), less than    1  well logs for interporation the plane.
  
      335.8 ft(z), less than    1  well logs for interporation the plane.
@@ -1562,7 +1555,6 @@
  Layer           80 ,z=          272  contains air cells.
   Interpolation time:           0 sec            0 min
  
-   326.754679126506                2          81 out of         1008
  Plane No.  :          81
  Matrix size:           2
  Layer           81 ,z=          271  contains air cells.
@@ -1613,7 +1605,6 @@
  Layer           90 ,z=          262  contains air cells.
   Interpolation time:           0 sec            0 min
  
-   316.754679126506                2          91 out of         1008
  Plane No.  :          91
  Matrix size:           2
  Layer           91 ,z=          261  contains air cells.
@@ -1664,7 +1655,7 @@
  Layer          100 ,z=          252  contains air cells.
   Interpolation time:           0 sec            0 min
  
-   306.754679126506                6         101 out of         1008
+       306.8           6         101 out of         1008
  Plane No.  :         101
  Matrix size:           6
  Layer          101 ,z=          251  contains air cells.
@@ -1715,7 +1706,6 @@
  Layer          110 ,z=          242  contains air cells.
   Interpolation time:           0 sec            0 min
  
-   296.754679126506               12         111 out of         1008
  Plane No.  :         111
  Matrix size:          12
  Layer          111 ,z=          241  contains air cells.
@@ -1789,7 +1779,6 @@
  Well No.          242  and          247  are at the same location.
  Well No.          244  and          247  are at the same location.
  Well No.          255  and          256  are at the same location.
-   286.754679126506               26         121 out of         1008
  Plane No.  :         121
  Matrix size:          26
  Layer          121 ,z=          231  contains air cells.
@@ -2037,7 +2026,6 @@
  Well No.          245  and          247  are at the same location.
  Well No.          246  and          247  are at the same location.
  Well No.          255  and          256  are at the same location.
-   276.754679126506               33         131 out of         1008
  Plane No.  :         131
  Matrix size:          33
  Layer          131 ,z=          221  contains air cells.
@@ -2332,7 +2320,6 @@
  Well No.          245  and          247  are at the same location.
  Well No.          246  and          247  are at the same location.
  Well No.          255  and          256  are at the same location.
-   266.754679126506               38         141 out of         1008
  Plane No.  :         141
  Matrix size:          38
  Layer          141 ,z=          211  contains air cells.
@@ -2631,7 +2618,6 @@
  Well No.          245  and          247  are at the same location.
  Well No.          246  and          247  are at the same location.
  Well No.          255  and          256  are at the same location.
-   256.754679126506               44         151 out of         1008
  Plane No.  :         151
  Matrix size:          44
  Layer          151 ,z=          201  contains air cells.
@@ -2912,7 +2898,6 @@
  Well No.          245  and          247  are at the same location.
  Well No.          246  and          247  are at the same location.
  Well No.          255  and          256  are at the same location.
-   246.754679126506               55         161 out of         1008
  Plane No.  :         161
  Matrix size:          55
  Layer          161 ,z=          191  contains air cells.
@@ -3184,7 +3169,6 @@
  Well No.          242  and          246  are at the same location.
  Well No.          243  and          246  are at the same location.
  Well No.          255  and          256  are at the same location.
-   236.754679126506               70         171 out of         1008
  Plane No.  :         171
  Matrix size:          70
  Layer          171 ,z=          181  contains air cells.
@@ -3350,7 +3334,6 @@
  Well No.          180  and          234  are at the same location.
  Well No.          241  and          242  are at the same location.
  Well No.          255  and          256  are at the same location.
-   226.754679126506               74         181 out of         1008
  Plane No.  :         181
  Matrix size:          74
  Layer          181 ,z=          171  contains air cells.
@@ -3479,7 +3462,6 @@
  Well No.          172  and          174  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          255  and          256  are at the same location.
-   216.754679126506               96         191 out of         1008
  Plane No.  :         191
  Matrix size:          96
  Layer          191 ,z=          161  contains air cells.
@@ -3673,7 +3655,7 @@
  Well No.          171  and          205  are at the same location.
  Well No.          172  and          205  are at the same location.
  Well No.          180  and          234  are at the same location.
-   206.754679126506              113         201 out of         1008
+       206.8         113         201 out of         1008
  Plane No.  :         201
  Matrix size:         113
  Layer          201 ,z=          151  contains air cells.
@@ -3839,7 +3821,6 @@
  Well No.          228  and          229  are at the same location.
  Well No.          228  and          230  are at the same location.
  Well No.          229  and          230  are at the same location.
-   196.754679126506              126         211 out of         1008
  Plane No.  :         211
  Matrix size:         126
  Layer          211 ,z=          141  contains air cells.
@@ -3971,7 +3952,6 @@
  Well No.          211  and          213  are at the same location.
  Well No.          212  and          213  are at the same location.
  Well No.          228  and          230  are at the same location.
-   186.754679126506              142         221 out of         1008
  Plane No.  :         221
  Matrix size:         142
  Layer          221 ,z=          131  contains air cells.
@@ -4133,7 +4113,6 @@
  Well No.          191  and          193  are at the same location.
  Well No.          192  and          193  are at the same location.
  Well No.          211  and          212  are at the same location.
-   176.754679126506              161         231 out of         1008
  Plane No.  :         231
  Matrix size:         161
  Layer          231 ,z=          121  contains air cells.
@@ -4247,7 +4226,6 @@
  Well No.          191  and          192  are at the same location.
  Well No.          191  and          193  are at the same location.
  Well No.          192  and          193  are at the same location.
-   166.754679126506              160         241 out of         1008
  Plane No.  :         241
  Matrix size:         160
  Layer          241 ,z=          111  contains air cells.
@@ -4329,7 +4307,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          144  and          145  are at the same location.
  Well No.          180  and          234  are at the same location.
-   156.754679126506              175         251 out of         1008
  Plane No.  :         251
  Matrix size:         175
  Layer          251 ,z=          101  contains air cells.
@@ -4410,7 +4387,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          144  and          145  are at the same location.
  Well No.          180  and          234  are at the same location.
-   146.754679126506              178         261 out of         1008
  Plane No.  :         261
  Matrix size:         178
  Layer          261 ,z=           91  contains air cells.
@@ -4501,7 +4477,6 @@
  Well No.          267  and          272  are at the same location.
  Well No.          269  and          270  are at the same location.
  Well No.          297  and          300  are at the same location.
-   136.754679126506              180         271 out of         1008
  Plane No.  :         271
  Matrix size:         180
  Layer          271 ,z=           81  contains air cells.
@@ -4604,7 +4579,6 @@
  Well No.          180  and          234  are at the same location.
  Well No.          267  and          272  are at the same location.
  Well No.          297  and          300  are at the same location.
-   126.754679126506              179         281 out of         1008
  Plane No.  :         281
  Matrix size:         179
  Layer          281 ,z=           71  contains air cells.
@@ -4685,7 +4659,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   116.754679126506              176         291 out of         1008
  Plane No.  :         291
  Matrix size:         176
  Layer          291 ,z=           61  contains air cells.
@@ -4766,7 +4739,7 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   106.754679126506              176         301 out of         1008
+       106.8         176         301 out of         1008
  Plane No.  :         301
  Matrix size:         176
  Layer          301 ,z=           51  contains air cells.
@@ -4847,7 +4820,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   96.7546791265056              177         311 out of         1008
  Plane No.  :         311
  Matrix size:         177
  Layer          311 ,z=           41  contains air cells.
@@ -4926,7 +4898,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   86.7546791265056              180         321 out of         1008
  Plane No.  :         321
  Matrix size:         180
   Interpolation time:           0 sec            0 min
@@ -4997,7 +4968,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   76.7546791265056              182         331 out of         1008
  Plane No.  :         331
  Matrix size:         182
   Interpolation time:           0 sec            0 min
@@ -5068,7 +5038,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   66.7546791265056              185         341 out of         1008
  Plane No.  :         341
  Matrix size:         185
   Interpolation time:           0 sec            0 min
@@ -5139,7 +5108,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   56.7546791265056              185         351 out of         1008
  Plane No.  :         351
  Matrix size:         185
   Interpolation time:           0 sec            0 min
@@ -5210,7 +5178,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   46.7546791265056              185         361 out of         1008
  Plane No.  :         361
  Matrix size:         185
   Interpolation time:           0 sec            0 min
@@ -5281,7 +5248,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   36.7546791265056              184         371 out of         1008
  Plane No.  :         371
  Matrix size:         184
   Interpolation time:           0 sec            0 min
@@ -5352,7 +5318,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   26.7546791265056              185         381 out of         1008
  Plane No.  :         381
  Matrix size:         185
   Interpolation time:           0 sec            0 min
@@ -5423,7 +5388,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   16.7546791265056              184         391 out of         1008
  Plane No.  :         391
  Matrix size:         184
   Interpolation time:           0 sec            0 min
@@ -5494,7 +5458,7 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-   6.75467912650555              184         401 out of         1008
+         6.8         184         401 out of         1008
  Plane No.  :         401
  Matrix size:         184
   Interpolation time:           0 sec            0 min
@@ -5565,7 +5529,6 @@
  Well No.           75  and          285  are at the same location.
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -3.24532087349445              183         411 out of         1008
  Plane No.  :         411
  Matrix size:         183
   Interpolation time:           0 sec            0 min
@@ -5628,7 +5591,6 @@
  
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -13.2453208734944              182         421 out of         1008
  Plane No.  :         421
  Matrix size:         182
   Interpolation time:           0 sec            0 min
@@ -5689,7 +5651,6 @@
  
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -23.2453208734944              179         431 out of         1008
  Plane No.  :         431
  Matrix size:         179
   Interpolation time:           0 sec            0 min
@@ -5750,7 +5711,6 @@
  
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -33.2453208734944              176         441 out of         1008
  Plane No.  :         441
  Matrix size:         176
   Interpolation time:           0 sec            0 min
@@ -5811,7 +5771,6 @@
  
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -43.2453208734944              176         451 out of         1008
  Plane No.  :         451
  Matrix size:         176
   Interpolation time:           0 sec            0 min
@@ -5872,7 +5831,6 @@
  
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -53.2453208734944              173         461 out of         1008
  Plane No.  :         461
  Matrix size:         173
   Interpolation time:           0 sec            0 min
@@ -5933,7 +5891,6 @@
  
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -63.2453208734944              171         471 out of         1008
  Plane No.  :         471
  Matrix size:         171
   Interpolation time:           0 sec            0 min
@@ -5994,7 +5951,6 @@
  
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -73.2453208734944              169         481 out of         1008
  Plane No.  :         481
  Matrix size:         169
   Interpolation time:           0 sec            0 min
@@ -6055,7 +6011,6 @@
  
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -83.2453208734944              167         491 out of         1008
  Plane No.  :         491
  Matrix size:         167
   Interpolation time:           0 sec            0 min
@@ -6116,7 +6071,7 @@
  
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -93.2453208734944              161         501 out of         1008
+       -93.2         161         501 out of         1008
  Plane No.  :         501
  Matrix size:         161
   Interpolation time:           0 sec            0 min
@@ -6177,7 +6132,6 @@
  
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -103.245320873494              155         511 out of         1008
  Plane No.  :         511
  Matrix size:         155
   Interpolation time:           0 sec            0 min
@@ -6238,7 +6192,6 @@
  
  Well No.          180  and          234  are at the same location.
  Well No.          297  and          300  are at the same location.
-  -113.245320873494              151         521 out of         1008
  Plane No.  :         521
  Matrix size:         151
   Interpolation time:           0 sec            0 min
@@ -6291,7 +6244,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -123.245320873494              146         531 out of         1008
  Plane No.  :         531
  Matrix size:         146
   Interpolation time:           0 sec            0 min
@@ -6342,7 +6294,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -133.245320873494              132         541 out of         1008
  Plane No.  :         541
  Matrix size:         132
   Interpolation time:           0 sec            0 min
@@ -6393,7 +6344,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -143.245320873494              118         551 out of         1008
  Plane No.  :         551
  Matrix size:         118
   Interpolation time:           0 sec            0 min
@@ -6444,7 +6394,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -153.245320873494              109         561 out of         1008
  Plane No.  :         561
  Matrix size:         109
   Interpolation time:           0 sec            0 min
@@ -6495,7 +6444,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -163.245320873494               98         571 out of         1008
  Plane No.  :         571
  Matrix size:          98
   Interpolation time:           0 sec            0 min
@@ -6546,7 +6494,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -173.245320873494               86         581 out of         1008
  Plane No.  :         581
  Matrix size:          86
   Interpolation time:           0 sec            0 min
@@ -6597,7 +6544,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -183.245320873494               79         591 out of         1008
  Plane No.  :         591
  Matrix size:          79
   Interpolation time:           0 sec            0 min
@@ -6648,7 +6594,7 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -193.245320873494               65         601 out of         1008
+      -193.2          65         601 out of         1008
  Plane No.  :         601
  Matrix size:          65
   Interpolation time:           0 sec            0 min
@@ -6699,7 +6645,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -203.245320873494               59         611 out of         1008
  Plane No.  :         611
  Matrix size:          59
   Interpolation time:           0 sec            0 min
@@ -6750,7 +6695,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -213.245320873494               58         621 out of         1008
  Plane No.  :         621
  Matrix size:          58
   Interpolation time:           0 sec            0 min
@@ -6801,7 +6745,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -223.245320873494               56         631 out of         1008
  Plane No.  :         631
  Matrix size:          56
   Interpolation time:           0 sec            0 min
@@ -6852,7 +6795,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -233.245320873494               54         641 out of         1008
  Plane No.  :         641
  Matrix size:          54
   Interpolation time:           0 sec            0 min
@@ -6903,7 +6845,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -243.245320873494               49         651 out of         1008
  Plane No.  :         651
  Matrix size:          49
   Interpolation time:           0 sec            0 min
@@ -6954,7 +6895,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -253.245320873494               47         661 out of         1008
  Plane No.  :         661
  Matrix size:          47
   Interpolation time:           0 sec            0 min
@@ -7005,7 +6945,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -263.245320873494               44         671 out of         1008
  Plane No.  :         671
  Matrix size:          44
   Interpolation time:           0 sec            0 min
@@ -7056,7 +6995,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -273.245320873494               42         681 out of         1008
  Plane No.  :         681
  Matrix size:          42
   Interpolation time:           0 sec            0 min
@@ -7107,7 +7045,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -283.245320873494               38         691 out of         1008
  Plane No.  :         691
  Matrix size:          38
   Interpolation time:           0 sec            0 min
@@ -7158,7 +7095,7 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -293.245320873494               38         701 out of         1008
+      -293.2          38         701 out of         1008
  Plane No.  :         701
  Matrix size:          38
   Interpolation time:           0 sec            0 min
@@ -7209,7 +7146,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -303.245320873494               37         711 out of         1008
  Plane No.  :         711
  Matrix size:          37
   Interpolation time:           0 sec            0 min
@@ -7260,7 +7196,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -313.245320873494               36         721 out of         1008
  Plane No.  :         721
  Matrix size:          36
   Interpolation time:           0 sec            0 min
@@ -7311,7 +7246,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -323.245320873494               36         731 out of         1008
  Plane No.  :         731
  Matrix size:          36
   Interpolation time:           0 sec            0 min
@@ -7362,7 +7296,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -333.245320873494               36         741 out of         1008
  Plane No.  :         741
  Matrix size:          36
   Interpolation time:           0 sec            0 min
@@ -7413,7 +7346,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -343.245320873494               36         751 out of         1008
  Plane No.  :         751
  Matrix size:          36
   Interpolation time:           0 sec            0 min
@@ -7464,7 +7396,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -353.245320873494               36         761 out of         1008
  Plane No.  :         761
  Matrix size:          36
   Interpolation time:           0 sec            0 min
@@ -7515,7 +7446,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -363.245320873494               35         771 out of         1008
  Plane No.  :         771
  Matrix size:          35
   Interpolation time:           0 sec            0 min
@@ -7566,7 +7496,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -373.245320873494               35         781 out of         1008
  Plane No.  :         781
  Matrix size:          35
   Interpolation time:           0 sec            0 min
@@ -7617,7 +7546,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -383.245320873494               35         791 out of         1008
  Plane No.  :         791
  Matrix size:          35
   Interpolation time:           0 sec            0 min
@@ -7668,7 +7596,7 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -393.245320873494               35         801 out of         1008
+      -393.2          35         801 out of         1008
  Plane No.  :         801
  Matrix size:          35
   Interpolation time:           0 sec            0 min
@@ -7719,7 +7647,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -403.245320873494               34         811 out of         1008
  Plane No.  :         811
  Matrix size:          34
   Interpolation time:           0 sec            0 min
@@ -7770,7 +7697,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -413.245320873494               34         821 out of         1008
  Plane No.  :         821
  Matrix size:          34
   Interpolation time:           0 sec            0 min
@@ -7821,7 +7747,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -423.245320873494               34         831 out of         1008
  Plane No.  :         831
  Matrix size:          34
   Interpolation time:           0 sec            0 min
@@ -7872,7 +7797,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -433.245320873494               34         841 out of         1008
  Plane No.  :         841
  Matrix size:          34
   Interpolation time:           0 sec            0 min
@@ -7923,7 +7847,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -443.245320873494               34         851 out of         1008
  Plane No.  :         851
  Matrix size:          34
   Interpolation time:           0 sec            0 min
@@ -7974,7 +7897,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -453.245320873494               33         861 out of         1008
  Plane No.  :         861
  Matrix size:          33
   Interpolation time:           0 sec            0 min
@@ -8025,7 +7947,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -463.245320873494               31         871 out of         1008
  Plane No.  :         871
  Matrix size:          31
   Interpolation time:           0 sec            0 min
@@ -8076,7 +7997,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -473.245320873494               30         881 out of         1008
  Plane No.  :         881
  Matrix size:          30
   Interpolation time:           0 sec            0 min
@@ -8127,7 +8047,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -483.245320873494               30         891 out of         1008
  Plane No.  :         891
  Matrix size:          30
   Interpolation time:           0 sec            0 min
@@ -8178,7 +8097,7 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -493.245320873494               27         901 out of         1008
+      -493.2          27         901 out of         1008
  Plane No.  :         901
  Matrix size:          27
   Interpolation time:           0 sec            0 min
@@ -8229,7 +8148,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -503.245320873494               25         911 out of         1008
  Plane No.  :         911
  Matrix size:          25
   Interpolation time:           0 sec            0 min
@@ -8280,7 +8198,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -513.245320873494               21         921 out of         1008
  Plane No.  :         921
  Matrix size:          21
   Interpolation time:           0 sec            0 min
@@ -8331,7 +8248,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -523.245320873494               20         931 out of         1008
  Plane No.  :         931
  Matrix size:          20
   Interpolation time:           0 sec            0 min
@@ -8382,7 +8298,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -533.245320873494               18         941 out of         1008
  Plane No.  :         941
  Matrix size:          18
   Interpolation time:           0 sec            0 min
@@ -8433,7 +8348,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -543.245320873494               16         951 out of         1008
  Plane No.  :         951
  Matrix size:          16
   Interpolation time:           0 sec            0 min
@@ -8484,7 +8398,6 @@
   Interpolation time:           0 sec            0 min
  
  Well No.          297  and          300  are at the same location.
-  -553.245320873494               15         961 out of         1008
  Plane No.  :         961
  Matrix size:          15
   Interpolation time:           0 sec            0 min
@@ -8533,7 +8446,6 @@
  Matrix size:          12
   Interpolation time:           0 sec            0 min
  
-  -563.245320873494               12         971 out of         1008
  Plane No.  :         971
  Matrix size:          12
   Interpolation time:           0 sec            0 min
@@ -8574,7 +8486,6 @@
  Matrix size:          12
   Interpolation time:           0 sec            0 min
  
-  -573.245320873494               12         981 out of         1008
  Plane No.  :         981
  Matrix size:          12
   Interpolation time:           0 sec            0 min
@@ -8615,7 +8526,6 @@
  Matrix size:          11
   Interpolation time:           0 sec            0 min
  
-  -583.245320873494               11         991 out of         1008
  Plane No.  :         991
  Matrix size:          11
   Interpolation time:           0 sec            0 min
@@ -8656,7 +8566,7 @@
  Matrix size:           9
   Interpolation time:           0 sec            0 min
  
-  -593.245320873494                9        1001 out of         1008
+      -593.2           9        1001 out of         1008
  Plane No.  :        1001
  Matrix size:           9
   Interpolation time:           0 sec            0 min
@@ -8695,4 +8605,3 @@
  * GEOMODEL-Tile *
  * Program End   *
  *****************
- 

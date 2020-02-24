@@ -1,25 +1,76 @@
 Program Geologic_Modeling
 Implicit Double Precision (A-H,O-Z)
 
-!------------------------------------------------------------------------------------------------------
-!GridTopo.csv   : input file, center of cell locations (x,y) and its land surface (ft). Note: at this point, only 500mx500m squared cells are considered. 
+!/
+!This program is for the mansucript submitted to the Elsevier's journal: Computers & Geosciences
+!Manuscript Title: Constructing large-scale complex aquifer systems with big well log data: Louisiana model
+!Manuscript Authors:
+!  Hamid Vahdat-Aboueshagh, Department of Civil and Environmental Engineering, Louisiana State University
+!  Frank T.-C. Tsai, Department of Civil and Environmental Engineering, Louisiana State University
+!/
+
+!/
+!Copyright (c) 2020, Louisiana State University.
+! 
+!This program is free software; you can redistribute it and/or modify it
+!under the terms of the GNU General Public License as published by the
+!Free Software Foundation; either version 3 of the License, or (at your
+!option) any later version.
+! 
+!This program is distributed in the hope that it will be useful, but
+!WITHOUT ANY WARRANTY; without even the implied warranty of
+!MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+!Public License for more details.
+! 
+!You should have received a copy of the GNU General Public License along
+!with this program; if not, write to the Free Software Foundation, Inc.,
+!59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+!
+!(You might also be able to get a copy of the license electronically if
+!required, from <http://www.gnu.org/licenses/>)
+!/
+
+!/
+! This program Lithology.F90 was written in Forgran 90
+! The natural neighobr interplation subroutines (UNIVERSITY OF BATH) was written in Fortran 77
+!/
+
+!/
+!Input data files
+! 
+!GridTopo.csv   : input file, center of cell locations (x,y) and its land surface (ft). 
 !WellLogs.csv   : input file, well log data file.
-!------------------------------------------------------------------------------------------------------
+!/
+
+!/
+!Input variables for Geo_model.inp
+!
+!NCELL          :number of 2D grid cells in GripTop.csv
+!NWellLog       :number of well logs in WellLogs.csv
 !MaxLithoBed    :maximum number of lithology beds in a well log 
-!------------------------------------------------------------------------------------------------------
 !dipDirection   :dip direction in degrees: 0 deg: East, 90 deg: North, 180 deg: West, 270 deg: South
-!dipAngleS      :start dip angle (degrees) !piece-wise line function for dip angle
-!dipAngleE      :end dip angle (degrees) 
-!ElevP1         :elevation of the first dip angle deflection (feet)
-!ElevP2         :elevation of the second dip angle dfelction (feet)
-!StartElev      :start elevation (ft)
-!EndElev        :bottom elevation (ft)
-!DZ             :interval DZ (ft)
-!ThickMin       :minimum thickness of a facies (ft)
-!cutoff         :for kriging indicator (-) 
-!NMinLogs       :minimum number of well logs for indicator kriging (-)
-!SearchRange    :Additional range outside the modeing domain (ft)
+!dipAngleS      :minimum value of dip slope at pivot plane
+!dipAngleE      :maximum value of dip slope at pivot plane 
+!ElevP1         :elevation at pivot plane, above which the dip slope is dipAngleS (feet)
+!ElevP2         :elevation at pivot plane, below which the dip slope is dipAngleE (feet)
+!StartElev      :start elevation of the stratigraphy model at pivot plane (feet)
+!EndElev        :end elevation of stratigraphy model at pivot plane (feet)
+!DZ             :vertical interval between planes (feet)
+!ThickMin       :minimum allowed thickness of facies in the stratigraphy model (feet)
+!cutoff         :cutoff value between 0 and 1 for the indicator natural neighbor interpolation method
+!NMinLogs       :minimum number of well logs for interpolation
+!SearchRange    :distance from tile boundaries to select well logs for interpolation (meters)
+!/
+
+!/
+!Output files
+!
+!geomodel.prn   : A documment of model information 
+!Geo-model.dat  : Modeled data file
+!Geo-model_no_thin.dat  : Modeled data file with no thin facies less than ThickMin
+!/
 !------------------------------------------------------------------------------------------------------
+
 Character*80 str1
 
 namelist / geo   / NCELL,NWellLog,MaxLithoBed, &
@@ -76,6 +127,7 @@ write(999,*) "cutoff= ",cutoff
 write(999,*) "NMinLogs= ",NMinLogs
 write(999,*)
 
+! Check input data for dipAngleS, dipAngleE, ElevP1, ElevP2, StartElev, EndElev
 if (dipAngleS>dipAngleE) then
     write(*,*) "dipAngleS>dipAngleE"
     write(999,*) "dipAngleS>dipAngleE"
@@ -98,7 +150,10 @@ endif
 Allocate(XCELL(NCELL),stat=error)
 Allocate(YCELL(NCELL),stat=error)
 Allocate(TOPO(NCELL),stat=error)
+
 !
+write (*,*) "Reading GripTopo.csv  .."
+write (*,*) "Number of 2D grid cells: ",NCELL
 Call Grid2D(NCELL,XCELL,YCELL,TOPO)
 
 ! Domain of active well logs for interpolation
@@ -172,7 +227,6 @@ else
 endif
 
 ! Read all well log data and select active well logs in the domain
-!
 Allocate(WellLogX(NWellLog),stat=error)
 Allocate(WellLogY(NWellLog),stat=error)
 Allocate(NLithoBed(NWellLog),stat=error)
@@ -180,6 +234,9 @@ Allocate(ElevBedBoundary(MaxLithoBed,NWellLog),stat=error)
 Allocate(IndexBedLitho(MaxLithoBed,NWellLog),stat=error)
 
 NBed=MaxLithoBed
+
+write (*,*) "Reading WellLog.csv .."
+write (*,*) "Number of well logs: ",NWellLog
 Call WellLogData(XSearchMin,XSearchMax,YSearchMin,YSearchMax,NWellLog,NBed,NLithoBed,WellLogX,WellLogY,ElevBedBoundary,IndexBedLitho)
 write(999,*) "Maximum number of beds of boring wells is ", Maxval(NLithoBed(1:NWellLog))+1
 
@@ -292,7 +349,7 @@ write (999,*)
 !
 GBytes=NLay*NCELL*8/1000000000.0d0
 write (999,*) "Layers (NLay)= ", NLay, "; Topo cells (NCELL)= ",NCELL
-write (*,*) "Layers (NLay)= ", NLay, "; Topo cells (NCELL)= ",NCELL
+!write (*,*) "Layers (NLay)= ", NLay, "; Topo cells (NCELL)= ",NCELL
 write (999,*) "Memory for 4 arrays of entire grid is ",GBytes*3.5d0, " GBytes" 
 
 Allocate(z2(NLay,NCELL),stat=error) !for z2
@@ -351,21 +408,25 @@ do jj=ii+1,nActive
     endif
 enddo
 enddo
-       
-if (mod(iz,10).eq.1) write (*,*) z, nActive,iz,"out of ",NLay
-if (mod(iz,10).eq.1) write (999,*) z, nActive,iz,"out of ",NLay
+
+! 
+if (mod(iz,100).eq.1) write (*,fmt="(1F12.1,2I12,A8,1I12)") z, nActive,iz,"out of ",NLay
+if (mod(iz,100).eq.1) write (999,fmt="(1F12.1,2I12,A8,1I12)") z, nActive,iz,"out of ",NLay
 
     if (nActive.ge.NMinLogs) then  !! The MOST expensive block.
     
-       Write (*,*) "Plane No.  :", iz
+!       Write (*,*) "Plane No.  :", iz
        Write (999,*) "Plane No.  :", iz
        
-       Write (*,*) "Matrix size:", nActive
+!       Write (*,*) "Matrix size:", nActive
        Write (999,*) "Matrix size:", nActive
-          
+       
+!/
+!Call natural neighbor interplation subroutine and and all the routines it calls
        CALL NNINT(nActive,SNGL(XX),SNGL(YY),SNGL(VV),SNGL(XMIN2),SNGL(YMIN2),SNGL(XMAX2),SNGL(YMAX2),NCELL,SNGL(XCELL),SNGL(YCELL), &
                   VCELL) !,NearestWell(i,:))
-             
+!/
+       
        Call cpu_time (t1)
        do 23 i=1,NCELL  ! This do loop is much more expensive than the above matrix inversion due to large NCELL. "CALL ORDINARY_KRIGING" is fast for a large matrix.                
         dipAngle1=dipAngle(ElevCenter,dipAngleS,dipAngleE,-DistCenter,z) !dip at pivot strike plane
@@ -401,7 +462,7 @@ if (mod(iz,10).eq.1) write (999,*) z, nActive,iz,"out of ",NLay
             write (999,*) "Layer ",iz, ",z= ",nint(z1), " contains air cells."
        endif        
        Call cpu_time (t2)
-       Write (*,*) " Interpolation time:", nint(t2-t1), "sec ", nint((t2-t1)/60), "min" 
+!       Write (*,*) " Interpolation time:", nint(t2-t1), "sec ", nint((t2-t1)/60), "min" 
        Write (999,*) " Interpolation time:", nint(t2-t1), "sec ", nint((t2-t1)/60), "min"  
     else
        write(999,'(F10.1,A18,I4,A40)') sngl(z), "ft(z), less than ", NMinLogs, "well logs for interporation the plane."
@@ -434,7 +495,7 @@ Deallocate(BB,stat=error)
 write(*,*) "Creating Geo-model.dat and Geo-model_no_thin.dat files."
 
 open (unit=41,file='Geo-model.dat')
-write(41,*) "Column ID, X(m), Y(m), Z(ft), Indicator"
+write(41,*) "Column ID, X(meters), Y(meters), Z(feet), Indicator"
 
 Allocate(Ind(NLay),stat=error)
 
@@ -480,7 +541,7 @@ open (unit=41,file='Geo-model.dat')
 read (41,*)
 
 open (unit=42,file='Geo-model_no_thin.dat')
-write (42,*) "Column ID, X(m), Y(m), Z(ft), Indicator"
+write (42,*) "Column ID, X(meters), Y(meters), Z(feet), Indicator"
 
 max_bed=0
 j=0
@@ -528,15 +589,18 @@ Call cpu_time (program_end)
 write (*,*)
 Write (999,*) "Runtime: ", nint((program_end-program_start)/60), "min ", nint((program_end-program_start)/3600), "hour"
 
+write (*,*)
+write (*,*) "*****************"
+write (*,*) "* GEOMODEL-Tile *" 
+write (*,*) "* Program End   *" 
+write (*,*) "*****************"
+write (*,*)
+
 write (999,*)
 write (999,*) "*****************"
 write (999,*) "* GEOMODEL-Tile *" 
 write (999,*) "* Program End   *" 
 write (999,*) "*****************"
-write (999,*)
-
-write(*,*)
-write(*,*) "Program completed"
 
 close(999)
 stop
