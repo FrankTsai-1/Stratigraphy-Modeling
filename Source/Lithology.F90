@@ -369,10 +369,10 @@ if (error.ne.0) then
     STOP
 endif
 
-Allocate(XX(NCELL),stat=error)
-Allocate(YY(NCELL),stat=error)
-Allocate(VV(NCELL),stat=error)
-Allocate(iActiveWell(NCELL),stat=error)
+Allocate(XX(NWellLog),stat=error)
+Allocate(YY(NWellLog),stat=error)
+Allocate(VV(NWellLog),stat=error)
+Allocate(iActiveWell(NWellLog),stat=error)
 Allocate(VCELL(NCELL),stat=error)
 Allocate(indx(NWellLog+1),stat=error)
 Allocate(BB(NWellLog+1),stat=error)

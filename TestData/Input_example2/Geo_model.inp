@@ -1,0 +1,17 @@
+&geo
+NCELL= 380
+NWellLog = 6847
+MaxLithoBed= 69
+dipDirection= 265.21
+dipAngleS= 0.001
+dipAngleE= 0.001
+ElevP1= 300.0
+ElevP2= -200.0
+StartElev= 300.0
+EndElev= -600.0
+DZ= 1.0
+ThickMin= 5.0
+cutoff= 0.5
+NMinLogs= 1
+SearchRange= 20000.0
+ /
