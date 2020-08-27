@@ -59,7 +59,7 @@ Examples of two datasets, corresponding to two tiles in Louisiana, are provided 
 				--Geo-model_no_thin.dat
 
 --------------------------
-Modeled data files with no thin facies (Geo-model_no_thin.dat)for the two examples were used to create vtu files. The vtu files can be visualized by one of the visulizer software programs such as ParaView.
+The VTU files are created for the modeled data, Geo-model_no_thin.dat for the two examples. The VTU files can be visualized by the open-source program, ParaView.
 
 ../vtuFiles/
 			--example.vtu
